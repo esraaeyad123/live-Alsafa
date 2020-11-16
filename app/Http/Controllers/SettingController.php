@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Session;
-use App\Setting;
+use App\setting;
 use Illuminate\Http\Request;
 
 
@@ -17,7 +17,7 @@ class SettingController extends Controller
     public function index()
     {
 
-        $setting = Setting::first();
+        $setting = setting::first();
 
         return view('admin.setting.edit', compact('setting'));
 
