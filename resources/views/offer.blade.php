@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!-- Created By CodingNepal -->
 <html lang= ar dir= rtl>
@@ -75,7 +76,7 @@
                 </div>
                 <p class="paragraph">
 
-                  
+                    {{ $setting->description }}
                 </p>
             </div>
             <div class="part two">
@@ -171,7 +172,11 @@
                       <div class="footer-links">
 
 
-      
+                <li>@if($setting->instagram) <a class="whatsapp" target="_blank" href="{{ $setting->whatsapp }}"><i class="fab fa-whatsapp" ></i></a> @endif</li>
+          <li>   @if($setting->instagram)<a  class="instagram" target="_blank" href="{{ $setting->instagram }}"><i class="fab fa-instagram"></i></a> @endif</li>
+                <li>@if($setting->instagram)<a class="snapchat" target="_blank" href="{{ $setting->snapchat }}"  ><i class="fab fa-snapchat"> @endif</i>
+
+                   </a></li>
 
             </div>
 
