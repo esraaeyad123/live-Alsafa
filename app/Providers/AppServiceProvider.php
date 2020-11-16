@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use App\Category;
-use App\Setting;
+use App\setting;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 
@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-       // $setting = Setting::first();
-      //  View::share('setting', $setting);;
+     $setting = setting::first();
+       View::share('setting', $setting);;
     }
 }
