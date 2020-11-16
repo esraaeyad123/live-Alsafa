@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Setting;
+use App\setting;
 class SettingTableSeeder extends Seeder
 {
     /**
@@ -11,7 +11,7 @@ class SettingTableSeeder extends Seeder
      */
     public function run()
     {
-        App\Setting::create([
+        App\setting::create([
             'name' => 'Example.com',
             'copyright' => 'Copyright © 2020 All rights reserved',
         ]);
