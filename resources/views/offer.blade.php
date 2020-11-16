@@ -132,11 +132,7 @@
 
 
 
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="phone" id="phone" name="phone" class="form-control" placeholder="رقم جوال">
-                             </div>
-                         </div>
+                         
                          <div class="row form-group">
                              <div class="col-md-12">
                                  <input type="text" id="subject" name="subject" class="form-control" placeholder="الموضوع">
