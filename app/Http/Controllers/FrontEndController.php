@@ -44,7 +44,7 @@ class FrontEndController extends Controller
         ]);
         $contact->save();
 if($contact){
-    Session::flash('send_message', 'Category created successfully');
+    Session::flash('send_message', 'تم ارسال الرسالة بنجاح');
         return redirect()->back();}
     }
 
