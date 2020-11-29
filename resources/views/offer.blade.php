@@ -25,6 +25,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
      <title>سناب لايف الصفا</title>
 
 
@@ -157,7 +158,14 @@
              </div>
          </div>
      </div>
+<script>
+    let counter =document.querySelector('h1');
+    let count =1 ;
+    setInterval(()=>{
+           counter.innerText=count;
 
+    },1000)
+</script>
    <footer>
     <div class="container">
         <div class="footer-content">
