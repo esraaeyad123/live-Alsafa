@@ -62,7 +62,7 @@
 }
 
 body{
-    font-family: 'El Messiri', sans-serif;   }
+   font-family: 'Harmattan', sans-serif;   }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'El Messiri', sans-serif;
@@ -79,7 +79,7 @@ button{
 
 
 
-.container2{
+.container{
     width: 1170px;
     margin: auto;
 }
@@ -647,19 +647,19 @@ hover-opacity{
 
     }
     .offer-content{
-        -webkit-overflow: hidden;
+       overflow: hidden;
     }
     .offer-item {
         -webkit-width:86%;
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:86%;
+        width:90%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
 
-        -webkit-padding: 30px 30px 30px 30px;
+       padding: 30px 30px 30px 30px;
         -webkit-position: relative;
 
 
