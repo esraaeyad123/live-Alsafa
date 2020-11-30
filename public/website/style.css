@@ -654,7 +654,7 @@ hover-opacity{
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:90%;
+        width:80%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
@@ -939,7 +939,7 @@ hover-opacity{
         overflow: hidden;
     }
     .features-item {
-        width:80%;
+        width:100%;
         -webkit-width:100%;
         -o-width:100%;
         -ms-width:100%;
