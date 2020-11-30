@@ -654,7 +654,7 @@ hover-opacity{
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:80%;
+        width:87%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
@@ -674,7 +674,7 @@ hover-opacity{
     .offer-item .icon{
         position: absolute;
         left: 10px;
-        top: 15px;
+        top: 10px;
         font-size: 30px;
 
     }
