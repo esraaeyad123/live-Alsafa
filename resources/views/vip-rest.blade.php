@@ -115,7 +115,7 @@
 
 
 <div class="offer">
-    <div class="container2">
+    <div class="container">
 
         <div class="section-header">
             <h1 class="section-title">خدماتنا</h2>
@@ -126,7 +126,7 @@
 
         </div>
     </div>
-    <div class="container2">
+    <div class="container">
         <div class="offer-content">
             <div class="offer-item ltr-effect">
                 <i class="icon   fa fa-coffee" ></i>
