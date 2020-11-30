@@ -20,13 +20,28 @@ class CategoryController extends Controller
     {
         $categories = Category::orderBy('created_at', 'DESC')->paginate(20);
 
-        return view('admin.category.index', compact('categories'));    }
+        return view('admin.category.index', compact('categories'));
+
+    }
 
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function subCat(Request $request)
+    {
+
+        $parent_id = $request->cat_id;
+
+        $subcategories = Category::where('id',$parent_id)
+            ->with('subcategories')
+            ->get();
+        return response()->json([
+            'subcategories' => $subcategories
+        ]);
+    }
     public function create()
     {
         return view('admin.category.create');
@@ -48,8 +63,7 @@ class CategoryController extends Controller
 
        $category=Category::create([
            'name' => $request->name,
-           'slug' => Str::slug($request->name, '-'),
-           'description' => $request->description,
+
        ]);
 
         Session::flash('success', 'Category created successfully');
@@ -91,7 +105,7 @@ class CategoryController extends Controller
     {
         $this->validate($request, [
             'name' => "required|unique:categories,name,$category->name",
-            'description' => 'required|min:3',
+
         ]);
 
         $category->update($request->all());
