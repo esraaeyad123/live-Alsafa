@@ -36,8 +36,8 @@
                             <thead>
                                 <tr>
                                     <th style="width: 10px">#</th>
-                                    <th> Name </th>
-                                    <th> phone </th>
+
+                                    <th> subcategories </th>
                                     <th>Category</th>
 
                                     <th> Subject </th>
@@ -49,11 +49,10 @@
                                 @foreach ($messages as $message)
                                     <tr>
                                         <td>{{ $message->id }}</td>
-                                        <td>{{ $message->name }}</td>
-                                        <td>{{ $message->phone }}</td>
-                                        <td>{{$message->category->name }}</td>
+                                        <td>{{ $message->category->name }}</td>
 
-                                        <td>{{ $message->subject }}</td>
+
+                                        <td>{{ $message->message }}</td>
                                         
                                         <td class="d-flex">
                                             <a href="{{ route('contact.show', ['id' => $message->id]) }}" class="btn btn-sm btn-success mr-1"> <i class="fas fa-eye"></i> </a>

@@ -37,21 +37,14 @@
                             <tbody>
                                 <tr>
                                     <th style="width: 200px">Name</th>
-                                    <td>{{ $message->name }}</td>
+                                    <td>{{ $message->subcategories->name }}</td>
                                 </tr>
                                 <tr>
                                     <th style="width: 200px">Category Name</th>
                                     <td>{{ $message->category->name }}</td>
                                 </tr>
 
-                                <tr>
-                                    <th style="width: 200px">phone</th>
-                                    <td>{{ $message->phone }}</td>
-                                </tr>
-                                <tr>
-                                    <th style="width: 200px">Subject</th>
-                                    <td>{{ $message->subject }}</td>
-                                </tr>
+
                                 <tr>
                                     <th style="width: 200px">Message</th>
                                     <td>{{ $message->message }}</td>
