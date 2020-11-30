@@ -25,7 +25,7 @@ Route::get('/', function () {
 
 
 
-Route::get('/offer', 'FrontEndController@index')->name('website');
+Route::get('/vip-rest', 'FrontEndController@index')->name('website');
 
 Route::match(['GET','POST'],'subcat', 'FrontEndController@subCat')->name('subCat');
 
