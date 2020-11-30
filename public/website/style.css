@@ -650,11 +650,11 @@ hover-opacity{
         -webkit-overflow: hidden;
     }
     .offer-item {
-        -webkit-width:80%;
+        -webkit-width:86%;
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:80%;
+        width:86%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
