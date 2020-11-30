@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!-- Created By CodingNepal -->
 <html lang= ar dir= rtl>
@@ -9,12 +8,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('website') }}/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <link rel="stylesheet" href="{{ asset('website') }}/style.css">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,65 +29,47 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
-     <title>سناب لايف الصفا</title>
+    <title> خصومات وعروض
+    </title>
 
 
 </head>
 <body>
-     <div class="header">
-    <div class="container">
-        <div class="header-content">
+<header class="header-fixed">
 
-            <div class="logo">
-                <h2 class="footer-title">سناب لايف الصفا</h2>
+    <div class="header-limiter">
 
-            </div>
+        <h1><a href="#">خصومات و<span> عروض  </span></a></h1>
 
-        </div>
+
 
     </div>
-</div>
 
-<div class="home">
-    <div  class="overlay">
+</header>
 
 
-        <div class="home-content">
-            <p class="home-desc">
-
-           حساب متخصص في تغطية كل ما يهم سكان ومرتادي حي الصفا
-
-                نقوم بتغطية
-                المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
 
 
-            </p>
-            <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
-
-        </div>
-    </div>
-</div>
 
 <div class="about  pd" id="about">
     <div class="about-content">
 
-        <div class="container">
+        <div class="container2">
             <div class="part_one">
                 <div class="big-title-left">
-                    <h2 class="title">من نحن</h2>
-                    <span class="ligne"> </span>
+                    <h1 class="title">من نحن</h1>
                 </div>
                 <p class="paragraph">
 
-                    {{ $setting->description }}
+                    نوفر لكم أفضل المطاعم وأفضل الخصومات
+                    نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
+
                 </p>
             </div>
             <div class="part two">
                 <div class="image">
-<img src="{{ asset('website/offer.jpg') }}">
+                    <!--<img src="/offer/offer.jpg">-->
                 </div>
 
 
@@ -92,141 +79,255 @@
 </div>
 
 
-     <div class="site-section bg-light">
-         <div class="container">
-            <div class="row">
-                 <div class="col-md-12 mb-5">
-                     <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
-                         @csrf
-                         @include('includes.errors')
-                         @if(Session::has('send_message'))
-                             <div class="alert alert-success">{{Session::get('send_message')}}</div>
-                         @endif
-                         <div class="col-md-12 col-lg-10">
-                             <div class="post-entry text-center">
-                                 <h2 class="title">اقتراحات</h2>
-                                 <span class="ligne"> </span>
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="text" id="name" name="name" class="form-control" placeholder="الاسم">
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="text" id="phone" name="phone" class="form-control" placeholder="رقم جوال">
-                             </div>
-                         </div>
-
-                         <div class="form-group">
-                             <select name="category_id" id="category_id" class="form-control">
-                                 <option value="" style="display: none" selected>Select Category</option>
-                                 @foreach($categories as $c)
-                                     <option value="{{ $c->id }}"> {{ $c->name }} </option>
-                                 @endforeach
-                             </select>
-                         </div>
 
 
 
 
-                         
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="text" id="subject" name="subject" class="form-control" placeholder="الموضوع">
-                             </div>
-                         </div>
 
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
-                             </div>
-                         </div>
-
-
-                     </form>
-                 </div>
-             </div>
-         </div>
-     </div>
-<script>
-    let counter =document.querySelector('h1');
-    let count =1 ;
-    setInterval(()=>{
-           counter.innerText=count;
-
-    },1000)
-</script>
-   <footer>
+<div class="features">
     <div class="container">
-        <div class="footer-content">
 
-            <h2 class="footer-title">{{ $setting->name }}
-            </h2>
+        <div class="section-header">
+            <h1 class="section-title">مميزاتنا</h2>
+                <span class="ligne"></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="features-content">
 
-                      <div class="footer-links">
+            <div class="features-item ">
+
+                <i class="icon fa fa-commenting" aria-hidden="true"></i>
+                <h3 class="features-item-title">سهولة التواصل</h3>
+            </div>
+
+            <div class="features-item ">
+                <i class="icon fa fa-check-circle" aria-hidden="true"></i>
+                <h3 class="features-item-title ">خدماتنا أساسها مبني على الثقة والأمانة</h3>
+            </div>
+            <div class="features-item ">
+                <i class="icon fa fa-thumbs-o-up"></i>
+                <h3 class="features-item-title">الجودة الممتازة ورضى كل عميل هو دائما أولويتنا</h3>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-                <li>@if($setting->instagram) <a class="whatsapp" target="_blank" href="{{ $setting->whatsapp }}"><i class="fab fa-whatsapp" ></i></a> @endif</li>
-          <li>   @if($setting->instagram)<a  class="instagram" target="_blank" href="{{ $setting->instagram }}"><i class="fab fa-instagram"></i></a> @endif</li>
-                <li>@if($setting->instagram)<a class="snapchat" target="_blank" href="{{ $setting->snapchat }}"  ><i class="fab fa-snapchat"> @endif</i>
+<div class="offer">
+    <div class="container2">
 
-                   </a></li>
+        <div class="section-header">
+            <h1 class="section-title">خدماتنا</h2>
+                <p class="about-item-de">نقوم بتغطيات و تقديم عروض و خصومات لكل المتابعين
+                </p>
 
+                <span class="ligne"></span>
+
+        </div>
+    </div>
+    <div class="container2">
+        <div class="offer-content">
+            <div class="offer-item ltr-effect">
+                <i class="icon   fa fa-coffee" ></i>
+                <h3 class="offer-item-title">كافيهات </h3>
+            </div>
+            <div class="offer-item ">
+                <i class="icon  fa fa-cutlery"></i>
+                <h3 class="offer-item-title">المطاعم</h3>
+            </div>
+
+            <div class="offer-item">
+
+                <i class="icon  fa fa-umbrella" ></i>
+                <h3 class="offer-item-title">الاستراحات و شاليهات</h3>
+            </div>
+            <div class="offer-item">
+                <i class="icon  fa fa-shopping-cart"></i>
+
+                <h3 class=" offer-item-title">الاسواق</h3>
             </div>
 
 
-            <div class="copyright">
-                <span class="credit">Created By  | </span>
-               
-               
-                <span class="far fa-copyright"></span> 2020 All rights reserved.
+            <div class="offer-item">
+                <i class="icon  fa fa-scissors"></i>
+                <h3 class="offer-item-title">صالونات و مراكز التجميل</h3>
             </div>
-            
+
+            <div class="offer-item">
+                <i class="icon fa fa-server" aria-hidden="true"></i>
+
+                <h3 class="offer-item-title">خدمات اخرى </h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="site-section bg-light">
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
+                    @csrf
+                    @include('includes.errors')
+                    @if(Session::has('send_message'))
+                        <div class="alert alert-success">{{Session::get('send_message')}}</div>
+                    @endif
+                    <div class="col-md-12 col-lg-10">
+                        <div class="post-entry text-center">
+                            <h2 class="title">اقتراحات</h2>
+                            <span class="ligne"> </span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+
+
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
+                            <option selected>Select category</option>
+                            @foreach ($categories as $item)
+                                <option value="{{ $item->id }}">{{ $item->name }}</option>
+                            @endforeach
+                        </select>
+
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
+
+                        </select>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+</div>
+
+
+
+
+
+<footer class="footer-distributed">
+    <div class="footer-content">
+
+        <div class="footer-left">
+
+            <h3>خصومات و<span>عروض</span></h3>
+
+            <p class="footer-links">
+                <a href="#">من نحن</a>
+                -
+                <a href="#">مميزاتنا</a>
+                -
+                <a href="#">خدماتنا</a>
+
+            </p>
+
+            <p class="footer-company-name">عروض و خصومات &copy; 2020</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span></span> jeddah, KSA</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+966500696719</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>من نحن</span>
+
+                حساب متخصص في تغطية كل ما يهم سكان ومرتادي جدة
+
+                نقوم بتغطية
+                المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
+
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
         </div>
     </div>
 </footer>
 
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    $(document).ready(function () {
 
+        $('#category').on('change',function(e) {
+            var cat_id = e.target.value;
+            $.ajax({
 
+                url:"{{ route('subCat') }}",
+                type:"GET",
+                data: {
+                    cat_id: cat_id
+                },
 
+                success:function (data) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-    let counter =document.querySelector('h1');
-    let count =1 ;
-    setInterval(()=>{
-           counter.innerText=count;
-
-    },1000)
+                    // console.log(data.subcategories[0])
+                    $('#subcategory').empty();
+                    $.each(data.subcategories,function(index,subcat){
+                        // console.log(subcat)
+                        $('#subcategory').append('<option value="'+subcat.id+'">'+subcat.name+'</option>');
+                    })
+                }
+            })
+        });
+    });
 </script>
+
 </body>
 </html>
