@@ -28,7 +28,7 @@ class FrontEndController extends Controller
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
 
-        return view('offer', compact(['categories', 'subcategories']));
+        return view('vip-rest', compact(['categories', 'subcategories']));
  }
 
 
