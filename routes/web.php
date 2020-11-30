@@ -27,6 +27,7 @@ Route::get('/', function () {
 
 Route::get('/offer', 'FrontEndController@index')->name('website');
 
+Route::match(['GET','POST'],'subcat', 'FrontEndController@subCat')->name('subCat');
 
 Route::get('/contact', 'FrontEndController@contact')->name('website.contact');
 
@@ -34,16 +35,18 @@ Route::post('/contact', 'FrontEndController@send_message')->name('website.contac
 
 
 
-
-
-
+Route::match(['GET','POST'],'ajax-subcat/{id}', 'Controller@ajaxcall');
 
 
 
 Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
 
     Route::resource('category', 'CategoryController');
+    Route::resource('subcategories', 'SubcategoriesController');
 
+    Route::resource('user', 'UserController');
+    Route::get('/profile', 'UserController@profile')->name('user.profile');
+    Route::post('/profile', 'UserController@profile_update')->name('user.profile.update');
     // setting
     Route::get('setting', 'SettingController@index')->name('setting.index');
 
