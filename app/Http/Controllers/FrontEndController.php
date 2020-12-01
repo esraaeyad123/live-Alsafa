@@ -55,6 +55,8 @@ class FrontEndController extends Controller
             
             'message' => 'required',
             'category_id' => 'required',
+                        'subcategories_id' => 'required',
+
         ]);
 
         $contact = Contact::create([
