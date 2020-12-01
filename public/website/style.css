@@ -667,7 +667,7 @@ hover-opacity{
         -webkit-position: relative;
         margin-bottom: 20px ;
         border: 1px solid #e8e8e8;
-padding: 30px 30px 30px 30px;
+padding: 30px 30px 35px 30px;
             position: relative;
 
 
@@ -683,8 +683,8 @@ padding: 30px 30px 30px 30px;
     .offer-item .icon{
         position: absolute;
         left: 10px;
-        top: 15px;
-        font-size: 30px;
+        top: 10px;
+        font-size: 25px;
 
     }
 
