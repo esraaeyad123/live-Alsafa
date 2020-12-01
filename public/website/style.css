@@ -658,7 +658,7 @@ hover-opacity{
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:90%;
+        width:80%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
@@ -729,7 +729,7 @@ hover-opacity{
 
 .footer-distributed h3{
     color:  #ffffff;
-    font: normal 36px 'Cookie', cursive;
+    font: normal 36px 'Rakkas', cursive;
     margin: 0;
 }
 
@@ -845,7 +845,7 @@ hover-opacity{
 @media (max-width: 736px) {
 
     .footer-distributed {
-        font: bold 14px sans-serif;
+        font: bold 14px 'Rakkas', cursive;
     }
 
     .footer-distributed .footer-left,
@@ -943,8 +943,8 @@ hover-opacity{
         overflow: hidden;
     }
     .features-item {
-        width:85%;
-        -webkit-width:85%;
+        width:100%;
+        -webkit-width:100%;
         -o-width:100%;
         -ms-width:100%;
 
