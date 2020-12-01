@@ -52,7 +52,7 @@ class FrontEndController extends Controller
 
         $this->validate($request, [
 
-            'subcategories_id' => 'required',
+            
             'message' => 'required',
             'category_id' => 'required',
         ]);
