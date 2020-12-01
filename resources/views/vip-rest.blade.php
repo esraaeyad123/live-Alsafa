@@ -88,7 +88,7 @@
     <div class="container">
 
         <div class="section-header">
-            <h1 class="section-title">مميزاتنا</h2>
+            <h1 class="section-title">مميزات</h2>
                 <span class="ligne"></span>
         </div>
     </div>
