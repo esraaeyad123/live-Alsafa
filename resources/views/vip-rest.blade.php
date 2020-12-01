@@ -183,6 +183,8 @@
                     <div class="col-md-12 col-lg-10">
                         <div class="post-entry text-center">
                             <h2 class="title">اقتراحات</h2>
+                             <p class="about-item-de">متابعينا الكرام نستقبل اقتراحاتكم لاماكن المفضلة التي تحبونها
+                </p>
                             <span class="ligne"> </span>
                         </div>
                     </div>
