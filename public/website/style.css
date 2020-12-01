@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
 .hover-opacity:hover{
     opacity: 0.7;
 }
@@ -62,10 +61,12 @@
 }
 
 body{
-   font-family: 'Harmattan', sans-serif;   }
+   font-family: 'Rakkas', cursive;
+   }
 
 h1, h2, h3, h4, h5, h6{
-   font-family: 'Harmattan', sans-serif;;
+   font-family: 'Rakkas', cursive;
+
     font-weight: 300;
 }
 
@@ -595,7 +596,7 @@ hover-opacity{
 }
 .offer-item {
 
-    width:30%;
+    width:32%;
     float: left;
     margin-left: 30px;
     margin-bottom: 20px ;
@@ -612,7 +613,7 @@ hover-opacity{
 }
 .offer-item .icon{
     position: absolute;
-    left: 10px;
+    left: 12px;
     top: 10px;
     font-size: 40px;
 
@@ -894,7 +895,7 @@ hover-opacity{
 }
 
 .features-item {
-    width:20%;
+    width:25%;
     float: left;
     margin-left: 130px;
 
