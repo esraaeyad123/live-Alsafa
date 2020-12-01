@@ -61,11 +61,11 @@
 }
 
 body{
-   font-family: 'Rakkas', cursive;
-   }
+    font-family: 'Rakkas', cursive;
+}
 
 h1, h2, h3, h4, h5, h6{
-   font-family: 'Rakkas', cursive;
+    font-family: 'Rakkas', cursive;
 
     font-weight: 300;
 }
@@ -80,7 +80,7 @@ button{
 
 
 
-.container{
+.container2{
     width: 1170px;
     margin: auto;
 }
@@ -133,7 +133,8 @@ button{
 
 .header-fixed .header-limiter h1 {
     float: left;
-    font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    font: normal 28px font-family: 'Rakkas', cursive;
+
     line-height: 40px;
     margin: 0;
 }
@@ -150,7 +151,7 @@ button{
 }
 
 .header-fixed .header-limiter nav {
-    font:16px 'Rakkas', cursive;
+    font:16px font-family: 'Rakkas', cursive;
     line-height: 40px;
     float: right;
 }
@@ -367,7 +368,8 @@ body.fixed .header-fixed .header-limiter nav {
     text-transform: capitalize;
     letter-spacing:2px ;
     line-height: 1.5;
-    font-family: 'El Messiri', sans-serif;
+    font-family: 'Rakkas', cursive;
+
 }
 
 @media screen and (max-width: 736px) {
@@ -379,7 +381,8 @@ body.fixed .header-fixed .header-limiter nav {
         text-transform: capitalize;
         letter-spacing:2px ;
         line-height: 1.5;
-        font-family: 'El Messiri', sans-serif;
+        font-family: 'Rakkas', cursive;
+
     }
 
 }
@@ -596,7 +599,7 @@ hover-opacity{
 }
 .offer-item {
 
-    width:32%;
+    width:30%;
     float: left;
     margin-left: 30px;
     margin-bottom: 20px ;
@@ -613,7 +616,7 @@ hover-opacity{
 }
 .offer-item .icon{
     position: absolute;
-    left: 12px;
+    left: 10px;
     top: 10px;
     font-size: 40px;
 
@@ -621,7 +624,7 @@ hover-opacity{
 .offer-item .iconse{
     position: absolute;
     left: 10px;
-    top: 20px;
+    top: 10px;
     font-size:80px;
     color:#6195FF ;
 
@@ -648,19 +651,19 @@ hover-opacity{
 
     }
     .offer-content{
-       overflow: hidden;
+        -webkit-overflow: hidden;
     }
     .offer-item {
-        -webkit-width:86%;
+        -webkit-width:80%;
         -moz-width:80%;
         -ms-width:80%;
         -o-width:80%;
-        width:87%;
+        width:90%;
 
         -webkit-margin-bottom: 20px ;
         -webkit-border: 1px solid #e8e8e8;
 
-       padding: 30px 30px 30px 30px;
+        -webkit-padding: 30px 30px 30px 30px;
         -webkit-position: relative;
 
 
@@ -675,7 +678,7 @@ hover-opacity{
     .offer-item .icon{
         position: absolute;
         left: 10px;
-        top: 10px;
+        top: 15px;
         font-size: 30px;
 
     }
@@ -895,7 +898,7 @@ hover-opacity{
 }
 
 .features-item {
-    width:28%;
+    width:20%;
     float: left;
     margin-left: 130px;
 
