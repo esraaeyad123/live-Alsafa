@@ -150,7 +150,7 @@ button{
 }
 
 .header-fixed .header-limiter nav {
-    font:16px Arial, Helvetica, sans-serif;
+    font:16px 'Rakkas', cursive;
     line-height: 40px;
     float: right;
 }
@@ -895,7 +895,7 @@ hover-opacity{
 }
 
 .features-item {
-    width:25%;
+    width:35%;
     float: left;
     margin-left: 130px;
 
