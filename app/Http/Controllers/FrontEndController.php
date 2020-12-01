@@ -66,7 +66,7 @@ class FrontEndController extends Controller
         ]);
         $contact->save();
 if($contact){
-    Session::flash('send_message', 'تم ارسال الرسالة بنجاح شكرا لتواصلكم');
+    Session::flash('send_message', 'تم ارسال الرسالة بنجاح شكرا على مشاركتك اقتراحاتك ');
         return redirect()->back();}
     }
 
