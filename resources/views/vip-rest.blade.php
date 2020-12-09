@@ -25,6 +25,8 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/abunuaf9">
+
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>عين جدة
     </title>
@@ -329,5 +331,13 @@
     });
 </script>
 
+  <script>
+      let counter =document.querySelector('h1');
+      let count =1 ;
+      setInterval(()=>{
+          counter.innerText=count;
+
+      },1000)
+  </script>
 </body>
 </html>
