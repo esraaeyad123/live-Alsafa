@@ -25,7 +25,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-        <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/abunuaf9">
+     <!--    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">-->
 
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>عين جدة
