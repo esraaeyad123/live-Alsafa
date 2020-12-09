@@ -26,7 +26,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <title> خصومات وعروض
+    <title>عين جدة
     </title>
 
 
@@ -36,7 +36,7 @@
 
     <div class="header-limiter">
 
-        <h1><a href="#">خصومات و<span> عروض  </span></a></h1>
+        <h1><a href="#">جدة<span> عين </span></a></h1>
 
 
 
