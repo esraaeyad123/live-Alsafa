@@ -332,7 +332,7 @@
 </script>
 
   <script>
-      let counter =document.querySelector('h1');
+      let counter =document.querySelector('h6');
       let count =1 ;
       setInterval(()=>{
           counter.innerText=count;
