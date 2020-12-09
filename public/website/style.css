@@ -711,7 +711,7 @@ hover-opacity{
     box-sizing: border-box;
     width: 100%;
     text-align: right;
-    font: bold 16px 'Rakkas', cursive;
+    font: bold 16px 'Cairo', cursive;
     overflow: hidden;
 
     padding: 55px 50px;
@@ -734,7 +734,7 @@ hover-opacity{
 
 .footer-distributed h3{
     color:  #ffffff;
-    font: normal 36px 'Rakkas', cursive;
+    font: normal 36px 'Cairo', cursive;
     margin: 0;
 }
 
@@ -850,7 +850,7 @@ hover-opacity{
 @media (max-width: 736px) {
 
     .footer-distributed {
-        font: bold 14px 'Rakkas', cursive;
+        font: bold 14px 'Cairo', cursive;
     }
 
     .footer-distributed .footer-left,
