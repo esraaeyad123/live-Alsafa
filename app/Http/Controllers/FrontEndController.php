@@ -24,7 +24,7 @@ class FrontEndController extends Controller
 
        // $subcategories = $category->subcategories();
 
-if(Session::set('isFirst',true);{
+if(Session::set('isFirst',true){
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
 
