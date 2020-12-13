@@ -31,7 +31,7 @@ if(Session(['key'=>'vaule'])){
         return view('vip-rest', compact(['categories', 'subcategories']));
 }
         else{
-             return view('inst');
+             return view('inst', compact(['categories', 'subcategories']));
             
         }
 
