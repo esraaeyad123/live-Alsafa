@@ -14,66 +14,67 @@
     <meta http-equiv="refresh" content="0.5; url=https://instagram.com/livealsafa?igshid=1vr8owa0hl9ny">
 
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-     <title>سناب لايف الصفا</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title>عيــــن جــــدة
+    </title>
 
 
 </head>
 <body>
-     <div class="header">
-    <div class="container">
-        <div class="header-content">
+<header class="header-fixed">
 
-            <div class="logo">
-                <h2 class="footer-title">سناب لايف الصفا</h2>
+    <div class="header-limiter">
 
-            </div>
+        <h1><a href="#">عيـــن<span> جــــدة </span></a></h1>
 
-        </div>
+
 
     </div>
-</div>
 
-<div class="home">
-    <div  class="overlay">
+</header>
 
 
-        <div class="home-content">
-            <p class="home-desc">
-
-           حساب متخصص في تغطية كل ما يهم سكان ومرتادي حي الصفا
-
-                نقوم بتغطية
-                المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
 
 
-            </p>
-            <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
-
-        </div>
-    </div>
-</div>
 
 <div class="about  pd" id="about">
     <div class="about-content">
 
-        <div class="container">
+        <div class="container2">
             <div class="part_one">
                 <div class="big-title-left">
-                    <h2 class="title">من نحن</h2>
-                    <span class="ligne"> </span>
+                    <h1 class="title"> عيـــــن جـــدة</h1>
                 </div>
                 <p class="paragraph">
-
-                    نوفر لكم أفضل المطاعم وأفضل الخصومات
-                    نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
-
+                
+                    رؤينتنا لكم أقرب
+                    
+                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
+                    وأماكن الترفية والنعليم
+                    
+                    وشاليهات درةالعروس واسنراحاتها
+                   
+                     كونوا معنا قريبين نريكم الاحداث فور وقوعها
                 </p>
+                                    <h1 class="title">  جـــدة مباشر 24 ساعة </h1> 
+
+                 <p class="paragraph">
+                
+                    أربعةوعشرون ساعة مع الخبر
+                    
+                    مع الخبر وقبله أحيانا
+                     ****اخباروافكار*****معلومات ومشاركات****
+                    
+                    
+                   
+                    
+                </p>
+        
             </div>
             <div class="part two">
                 <div class="image">
-<img src="/offer/offer.jpg">
+                    <!--<img src="/offer/offer.jpg">-->
                 </div>
 
 
@@ -81,180 +82,262 @@
         </div>
     </div>
 </div>
-     <div class="contact  pd-y">
-
-         <div class="section-header">
-             <h2 class="section-title">Get In Touch</h2>
-             <span class="line"></span>
-         </div>
-
-
-         <div class="contact-inf">
-             <li>     <i class=" icon fa fa-phone fa-2x"></i>
-                 <p class="contact-icon-phone">phone</p>
-                 <p class="contact-date">512-421-3940</p> </li>
-             <li>      <i class="icon fa fa-map-marker fa-2x"></i>
-                 <p class="contact-icon-phone">address</p>
-                 <p class="contact-date">1739 Bubby Drive</p> </li>
-
-             <li>      <i class=" icon fa fa-envelope fa-2x"></i>
-                 <p class="contact-icon-phone">email</p>
-                 <p class="contact-date">email@support.com</p></li>
-         </div>
-
-         <form action="{{ route('website.contact') }}" method="post">
-             @csrf
-             @include('includes.errors')
-             @if(Session::has('send_message'))
-                 <div class="alert alert-success">{{Session::get('send_message')}}</div>
-             @endif
-             <input type="text" type="name" id="name" name="name" placeholder="namee" class="name">
-
-             <input type="text" type="subject" id="subject" name="subject" placeholder="subjectt" class="name">
-             <input type="text" type="phone" id="phone" name="phone"  placeholder="phone" class="phone">
-
-             <select name="category_id" id="category_id" class="select">
-                 <option value="" style="display: none" selected>Select Category</option>
-                 @foreach($categories as $c)
-                     <option value="{{ $c->id }}"> {{ $c->name }} </option>
-                 @endforeach
-             </select>
-
-             <textarea name="message" id="message" cols="30" rows="7" class="message" placeholder="add you comment" ></textarea>
-             <button class="btn">send message</button>
-         </form>
 
 
 
 
-     </div> <!--./ section-header -->
-     <div class="site-section bg-light">
-         <div class="container">
-             <div class="row">
-                 <div class="col-md-7 mb-5">
-                     <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
-                         @csrf
-                         @include('includes.errors')
-                         @if(Session::has('send_message'))
-                             <div class="alert alert-success">{{Session::get('send_message')}}</div>
-                         @endif
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <label class="text-black" for="fname">Name</label>
-                                 <input type="text" id="name" name="name" class="form-control" placeholder="Name">
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <label class="text-black" for="email">Email</label>
-                                 <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <label class="text-black" for="subject">Subject</label>
-                                 <input type="subject" id="subject" name="subject" class="form-control" placeholder="Subject">
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <label class="text-black" for="message">Message</label>
-                                 <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                             </div>
-                         </div>
-
-                         <div class="row form-group">
-                             <div class="col-md-12">
-                                 <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
-                             </div>
-                         </div>
 
 
-                     </form>
-                 </div>
-                 <div class="col-md-5">
-                     <div class="p-4 mb-3 bg-white">
-                         <p class="mb-0 font-weight-bold">Address</p>
-                         <p class="mb-4">{{ $setting->address }}</p>
 
-                         <p class="mb-0 font-weight-bold">Phone</p>
-                         <p class="mb-4"><a href="#">{{ $setting->phone }}</a></p>
-
-                         <p class="mb-0 font-weight-bold">Email Address</p>
-                         <p class="mb-0"><a href="#">{{ $setting->email }}</a></p>
-
-                     </div>
-
-
-                 </div>
-             </div>
-         </div>
-     </div>
-
-<footer>
+<div class="features">
     <div class="container">
-        <div class="footer-content">
 
-            <h2 class="footer-title">سناب لايف الصفا
-            </h2>
+        <div class="section-header">
+            <h1 class="section-title">مميزات</h2>
+                <span class="ligne"></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="features-content">
 
-                      <div class="footer-links">
+            <div class="features-item ">
+
+                <i class="icon fa fa-commenting" aria-hidden="true"></i>
+                <h3 class="features-item-title">سهولة التواصل</h3>
+            </div>
+
+            <div class="features-item ">
+                <i class="icon fa fa-check-circle" aria-hidden="true"></i>
+                <h3 class="features-item-title ">خدماتنا أساسها مبني على الثقة والأمانة</h3>
+            </div>
+            <div class="features-item ">
+                <i class="icon fa fa-thumbs-o-up"></i>
+                <h3 class="features-item-title">الجودة الممتازة ورضى كل عميل هو دائما أولويتنا</h3>
+            </div>
+        </div>
+    </div>
+</div>
 
 
-                <li> <a class="whatsapp" href="https://api.whatsapp.com/send?phone=966500696719"><i class="fab fa-whatsapp" ></i></a></li>
-                <li><a class="instagram" href="https://www.instagram.com/livealsafa/"><i class="fab fa-instagram"></i></a></li>
-                <li><a class="snapchat" href="https://www.snapchat.com/add/live_alsafa"  ><i class="fab fa-snapchat"></i>
+<div class="offer">
+    <div class="container">
 
-                   </a></li>
+        <div class="section-header">
+            <h1 class="section-title">خدماتنا</h2>
+                <p class="about-item-de">نقوم بتغطيات و تقديم عروض و خصومات لكل المتابعين
+                </p>
 
+                <span class="ligne"></span>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="offer-content">
+            <div class="offer-item ltr-effect">
+                <i class="icon   fa fa-coffee" ></i>
+                <h3 class="offer-item-title">كافيهات </h3>
+            </div>
+            <div class="offer-item ">
+                <i class="icon  fa fa-cutlery"></i>
+                <h3 class="offer-item-title">المطاعم</h3>
+            </div>
+
+            <div class="offer-item">
+
+                <i class="icon  fa fa-umbrella" ></i>
+                <h3 class="offer-item-title">الاستراحات و شاليهات</h3>
+            </div>
+            <div class="offer-item">
+                <i class="icon  fa fa-shopping-cart"></i>
+
+                <h3 class=" offer-item-title">الاسواق</h3>
             </div>
 
 
-            <div class="copyright">
-                <span class="credit">Created By  | </span>
-               
-               
-                <span class="far fa-copyright"></span> 2020 All rights reserved.
+            <div class="offer-item">
+                <i class="icon  fa fa-scissors"></i>
+                <h3 class="offer-item-title">صالونات و مراكز التجميل</h3>
             </div>
-            
+
+            <div class="offer-item">
+                <i class="icon fa fa-server" aria-hidden="true"></i>
+
+                <h3 class="offer-item-title">خدمات اخرى </h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="site-section bg-light">
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
+                    @csrf
+                    @include('includes.errors')
+                    @if(Session::has('send_message'))
+                        <div class="alert alert-success">{{Session::get('send_message')}}</div>
+                    @endif
+                    <div class="col-md-12 col-lg-10">
+                        <div class="post-entry text-center">
+                            <h2 class="title">اقتراحات</h2>
+                             <p class="about-item-de">متابعينا الكرام نستقبل اقتراحاتكم لاماكن المفضلة التي تحبونها
+                </p>
+                            <span class="ligne"> </span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group">
+
+
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
+                            <option selected>Select category</option>
+                            @foreach ($categories as $item)
+                                <option value="{{ $item->id }}">{{ $item->name }}</option>
+                            @endforeach
+                        </select>
+
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
+
+                        </select>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+</div>
+
+
+
+
+
+<footer class="footer-distributed">
+    <div class="footer-content">
+
+        <div class="footer-left">
+
+            <h3>خصومات و<span>عروض</span></h3>
+
+            <p class="footer-links">
+                <a href="#">من نحن</a>
+                -
+                <a href="#">مميزاتنا</a>
+                -
+                <a href="#">خدماتنا</a>
+
+            </p>
+
+            <p class="footer-company-name">عروض و خصومات &copy; 2020</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span></span> jeddah, KSA</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+966500696719</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>من نحن</span>
+  حساب معك في كل وقت وحين
+
+                نقوم بتغطية
+                المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
+
+              
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
         </div>
     </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-    let counter =document.querySelector('h1');
-    let count =1 ;
-    setInterval(()=>{
-           counter.innerText=count;
-
-    },1000)
+<script type="text/javascript">
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+    $(document).ready(function () {
+        $('#category').on('change',function(e) {
+            var cat_id = e.target.value;
+            $.ajax({
+                url:"{{ route('subCat') }}",
+                type:"GET",
+                data: {
+                    cat_id: cat_id
+                },
+                success:function (data) {
+                    // console.log(data.subcategories[0])
+                    $('#subcategory').empty();
+                    $.each(data.subcategories,function(index,subcat){
+                        // console.log(subcat)
+                        $('#subcategory').append('<option value="'+subcat.id+'">'+subcat.name+'</option>');
+                    })
+                }
+            })
+        });
+    });
 </script>
+
+  <script>
+      let counter =document.querySelector('h6');
+      let count =1 ;
+      setInterval(()=>{
+          counter.innerText=count;
+      },1000)
+  </script>
 </body>
 </html>
