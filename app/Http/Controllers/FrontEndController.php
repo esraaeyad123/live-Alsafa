@@ -24,11 +24,16 @@ class FrontEndController extends Controller
 
        // $subcategories = $category->subcategories();
 
-
+if(Session::set('isFirst',true);{
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
 
-        return view('vip-rest', compact(['categories', 'subcategories']));
+        return view('vip-rest', compact(['categories', 'subcategories']));}
+   
+   else{
+       return view('home');
+       
+   }
  }
 
 
