@@ -27,7 +27,7 @@ class FrontEndController extends Controller
 
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
-if(\Session\Store::set('isFirst',true)){
+if(\Session::set('isFirst',true)){
         return view('vip-rest', compact(['categories', 'subcategories']));
 }
         else{
