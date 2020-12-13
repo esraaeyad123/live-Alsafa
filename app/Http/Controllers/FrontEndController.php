@@ -31,7 +31,7 @@ class FrontEndController extends Controller
         return view('vip-rest', compact(['categories', 'subcategories']));}
    
    
- }
+ 
 
 
 
