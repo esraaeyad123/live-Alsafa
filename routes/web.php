@@ -24,6 +24,7 @@ Route::get('/', function () {
 });
 
 
+Route::get('/inst', 'FrontEndController@index')->name('inst');
 
 Route::get('/vip-rest', 'FrontEndController@index')->name('website');
 
