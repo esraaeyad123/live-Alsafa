@@ -27,12 +27,14 @@ class FrontEndController extends Controller
 
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
-if(Session(['key'=>'2'])){
-     return view('inst', compact(['categories', 'subcategories']));
+        dd(Session(['key'=>'1']);
+if(Session(['key'=>'1'])){
+    
+        return view('vip-rest', compact(['categories', 'subcategories']));
 }
         else{
-        return view('vip-rest', compact(['categories', 'subcategories']));
-            
+                 return view('inst', compact(['categories', 'subcategories']));
+
         }
 
 
