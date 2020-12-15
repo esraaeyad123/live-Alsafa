@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('website') }}/style.css">
-  <meta http-equiv="refresh" content="0.5; url=https://instagram.com/livealsafa?igshid=1vr8owa0hl9ny">
+<!--  <meta http-equiv="refresh" content="0.5; url=https://instagram.com/livealsafa?igshid=1vr8owa0hl9ny">-->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>عيــــن جــــدة
