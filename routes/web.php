@@ -19,24 +19,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', function () {
-     $value = session('key');
 
-    // Specifying a default value...
-    $value = session('key', 'default');
-
-    // Store a piece of data in the session...
- dd(   session(['key' => 'value']));
-    
-        return view('welcome');
-
-});
 
 Route::get('/offer', 'FrontEndController@offer')->name('offer');
 
 Route::get('/inst', 'FrontEndController@index')->name('inst');
 
-Route::get('/vip-rest', 'FrontEndController@index')->name('website');
+Route::get('/', 'FrontEndController@index')->name('website');
 
 Route::match(['GET','POST'],'subcat', 'FrontEndController@subCat')->name('subCat');
 
