@@ -32,10 +32,12 @@ if (!isset($_COOKIE['firsttime'])){
         setcookie("firsttime", "no", /* EXPIRE */);
 
         return view('vip-rest', compact(['categories', 'subcategories']));
+     exit();
 }
 
         else{
                  return view('inst', compact(['categories', 'subcategories']));
+             exit();
 
         }
 
