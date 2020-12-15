@@ -41,6 +41,20 @@ if(Session(['key'=>'value'])){
 
 }
    
+    public function offer(Category $category) {
+
+       // $subcategories = $category->subcategories();
+
+
+        $categories = Category::all();
+       $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
+  
+        return view('offer', compact(['categories', 'subcategories']));
+
+
+
+
+}
    
  
 
