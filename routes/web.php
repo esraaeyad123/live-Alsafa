@@ -26,7 +26,7 @@ Route::get('/', function () {
     $value = session('key', 'default');
 
     // Store a piece of data in the session...
-    session(['key' => 'value']);
+ dd(   session(['key' => 'value']));
     
         return view('welcome');
 
