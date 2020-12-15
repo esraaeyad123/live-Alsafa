@@ -20,7 +20,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/', function () {
-    return view('welcome');
+     $value = session('key');
+
+    // Specifying a default value...
+    $value = session('key', 'default');
+
+    // Store a piece of data in the session...
+    session(['key' => 'value']);
 });
 
 Route::get('/offer', 'FrontEndController@offer')->name('offer');
