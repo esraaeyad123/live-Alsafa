@@ -27,6 +27,9 @@ Route::get('/', function () {
 
     // Store a piece of data in the session...
     session(['key' => 'value']);
+    
+        return view('welcome');
+
 });
 
 Route::get('/offer', 'FrontEndController@offer')->name('offer');
