@@ -23,6 +23,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/offer', 'FrontEndController@offer')->name('offer');
 
 Route::get('/inst', 'FrontEndController@index')->name('inst');
 
