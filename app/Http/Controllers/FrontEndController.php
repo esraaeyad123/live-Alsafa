@@ -28,12 +28,16 @@ class FrontEndController extends Controller
         $categories = Category::all();
        $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
      //   dd(Session(['key'=>'value']));
-if(Session(['key'=>'value'])){
-    
+if (!isset($_COOKIE['firsttime'])){
+        setcookie("firsttime", "no", /* EXPIRE */);
+
         return view('vip-rest', compact(['categories', 'subcategories']));
-}
+    
+        exit();
+
         else{
                  return view('inst', compact(['categories', 'subcategories']));
+    exit();
 
         }
 
