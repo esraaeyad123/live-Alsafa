@@ -18,14 +18,14 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::get('/', 'FrontEndController@index2');
 
 
 Route::get('/offer', 'FrontEndController@offer')->name('offer');
 
 Route::get('/inst', 'FrontEndController@index')->name('inst');
 
-Route::get('/', 'FrontEndController@index')->name('website');
+Route::get('vip-rest', 'FrontEndController@index')->name('website');
 
 Route::match(['GET','POST'],'subcat', 'FrontEndController@subCat')->name('subCat');
 
