@@ -60,7 +60,20 @@ if (!isset($_COOKIE['firsttime'])){
 
 }
    
- 
+   public function index2(Category $category) {
+
+       // $subcategories = $category->subcategories();
+
+
+        $categories = Category::all();
+       $subcategories = DB::table('subcategories')->select('*')->where('parent_id', '!=', NULL)->get();
+  
+        return view('offer', compact(['categories', 'subcategories']));
+
+
+
+
+}
 
 
 
