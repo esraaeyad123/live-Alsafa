@@ -25,8 +25,8 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-     <!    <meta http-equiv="refresh" content="0.5; url=https://www.instagram.com/livealsafa/?igshid=1vr8owa0hl9ny">>
-      <!    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">>
+     <   <meta http-equiv="refresh" content="0.5; url=https://www.instagram.com/livealsafa/?igshid=1vr8owa0hl9ny">>
+      <    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">>
 
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>عيــــن جــــدة
