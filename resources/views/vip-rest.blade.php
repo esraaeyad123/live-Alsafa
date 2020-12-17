@@ -4,32 +4,18 @@
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-
     <link rel="stylesheet" href="{{ asset('website') }}/style.css">
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-     
-        <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+     <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
   <meta http-equiv="refresh" content="0.5; url=https://instagram.com/livealsafa?igshid=1vr8owa0hl9ny">
-
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <title>عيــــن جــــدة
     </title>
 
@@ -326,19 +312,15 @@
         }
     });
     $(document).ready(function () {
-
         $('#category').on('change',function(e) {
             var cat_id = e.target.value;
             $.ajax({
-
                 url:"{{ route('subCat') }}",
                 type:"GET",
                 data: {
                     cat_id: cat_id
                 },
-
                 success:function (data) {
-
                     // console.log(data.subcategories[0])
                     $('#subcategory').empty();
                     $.each(data.subcategories,function(index,subcat){
@@ -356,7 +338,6 @@
       let count =1 ;
       setInterval(()=>{
           counter.innerText=count;
-
       },1000)
   </script>
 </body>
