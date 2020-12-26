@@ -5,31 +5,19 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge">
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ asset('website') }}/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="{{ asset('website') }}/style.css">
-
-
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <!-- Styles -->
-    <title> خصومات وعروض
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+     <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
+  <meta http-equiv="refresh" content="0.5; url=https://instagram.com/livealsafa?igshid=1vr8owa0hl9ny">
+    <title>عيــــن جــــدة
     </title>
 
 
@@ -39,7 +27,7 @@
 
     <div class="header-limiter">
 
-        <h1><a href="#">خصومات و<span> عروض  </span></a></h1>
+        <h1><a href="#">عيـــن<span> جــــدة </span></a></h1>
 
 
 
@@ -58,14 +46,34 @@
         <div class="container2">
             <div class="part_one">
                 <div class="big-title-left">
-                    <h1 class="title">من نحن</h1>
+                    <h1 class="title"> عيـــــن جـــدة</h1>
                 </div>
                 <p class="paragraph">
-
-                    نوفر لكم أفضل المطاعم وأفضل الخصومات
-                    نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
-
+                
+                    رؤينتنا لكم أقرب
+                    
+                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
+                    وأماكن الترفية والنعليم
+                    
+                    وشاليهات درةالعروس واسنراحاتها
+                   
+                     كونوا معنا قريبين نريكم الاحداث فور وقوعها
                 </p>
+                                    <h1 class="title">  جـــدة مباشر 24 ساعة </h1> 
+
+                 <p class="paragraph">
+                
+                    أربعةوعشرون ساعة مع الخبر
+                    
+                    مع الخبر وقبله أحيانا
+                     ****اخباروافكار*****معلومات ومشاركات****
+                    
+                    
+                   
+                    
+                </p>
+                    <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+
             </div>
             <div class="part two">
                 <div class="image">
@@ -88,7 +96,7 @@
     <div class="container">
 
         <div class="section-header">
-            <h1 class="section-title">مميزاتنا</h2>
+            <h1 class="section-title">مميزات</h2>
                 <span class="ligne"></span>
         </div>
     </div>
@@ -115,7 +123,7 @@
 
 
 <div class="offer">
-    <div class="container2">
+    <div class="container">
 
         <div class="section-header">
             <h1 class="section-title">خدماتنا</h2>
@@ -126,7 +134,7 @@
 
         </div>
     </div>
-    <div class="container2">
+    <div class="container">
         <div class="offer-content">
             <div class="offer-item ltr-effect">
                 <i class="icon   fa fa-coffee" ></i>
@@ -173,65 +181,67 @@
 
 
 
+
 <div class="site-section bg-light">
-    <div class="row">
-        <div class="col-md-12 mb-5">
-            <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
-                @csrf
-                @include('includes.errors')
-                @if(Session::has('send_message'))
-                <div class="alert alert-success">{{Session::get('send_message')}}</div>
-                @endif
-                <div class="col-md-12 col-lg-10">
-                    <div class="post-entry text-center">
-                        <h2 class="title">اقتراحات</h2>
-                        <span class="ligne"> </span>
+        <div class="row">
+            <div class="col-md-12 mb-5">
+                <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
+                    @csrf
+                    @include('includes.errors')
+                    @if(Session::has('send_message'))
+                        <div class="alert alert-success">{{Session::get('send_message')}}</div>
+                    @endif
+                    <div class="col-md-12 col-lg-10">
+                        <div class="post-entry text-center">
+                            <h2 class="title">اقتراحات</h2>
+                             <p class="about-item-de">متابعينا الكرام نستقبل اقتراحاتكم لاماكن المفضلة التي تحبونها
+                </p>
+                            <span class="ligne"> </span>
+                        </div>
                     </div>
-                </div>
 
 
 
-                <div class="form-group">
+                    <div class="form-group">
 
 
-                    <h4></h4>
-                    <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
-                        <option selected>Select category</option>
-                        @foreach ($categories as $item)
-                        <option value="{{ $item->id }}">{{ $item->name }}</option>
-                        @endforeach
-                    </select>
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
+                            <option selected>Select category</option>
+                            @foreach ($categories as $item)
+                                <option value="{{ $item->id }}">{{ $item->name }}</option>
+                            @endforeach
+                        </select>
 
-                    <h4></h4>
-                    <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
+                        <h4></h4>
+                        <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
 
-                    </select>
-                </div>
-
-
-
-
-
-
-
-                <div class="row form-group">
-                    <div class="col-md-12">
-                        <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
+                        </select>
                     </div>
-                </div>
 
-                <div class="row form-group">
-                    <div class="col-md-12">
-                        <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
+
+
+
+
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
 
 
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
 </div>
-
 
 
 
@@ -276,12 +286,12 @@
 
             <p class="footer-company-about">
                 <span>من نحن</span>
-
-                حساب متخصص في تغطية كل ما يهم سكان ومرتادي جدة
+  حساب معك في كل وقت وحين
 
                 نقوم بتغطية
                 المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
 
+              
             </p>
 
             <div class="footer-icons">
@@ -304,19 +314,15 @@
         }
     });
     $(document).ready(function () {
-
         $('#category').on('change',function(e) {
             var cat_id = e.target.value;
             $.ajax({
-
                 url:"{{ route('subCat') }}",
                 type:"GET",
                 data: {
                     cat_id: cat_id
                 },
-
                 success:function (data) {
-
                     // console.log(data.subcategories[0])
                     $('#subcategory').empty();
                     $.each(data.subcategories,function(index,subcat){
@@ -328,12 +334,13 @@
         });
     });
 </script>
-<script>
-    let counter =document.querySelector('h6');
-    let count =1 ;
-    setInterval(()=>{
-        counter.innerText=count;
-    },1000)
-</script>
+
+  <script>
+      let counter =document.querySelector('h6');
+      let count =1 ;
+      setInterval(()=>{
+          counter.innerText=count;
+      },1000)
+  </script>
 </body>
 </html>
