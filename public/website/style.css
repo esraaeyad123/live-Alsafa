@@ -591,20 +591,7 @@ hover-opacity{
 
 
     }
-
-    .about .part_one .paragraph{
-        color: black;
-        font-size: 20px;
-
-
-        text-transform: capitalize;
-        margin-bottom: 15px;
-        line-height: 1.9;
-        letter-spacing: 1px;
-
-    }
-    
-    .about  button{
+.about  button{
     min-width: 160px;
     padding: 15px 0;
     margin-top: 60px;
@@ -624,6 +611,19 @@ hover-opacity{
     color: black;
     margin-left: 10px;
 }
+    .about .part_one .paragraph{
+        color: black;
+        font-size: 20px;
+
+
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        line-height: 1.9;
+        letter-spacing: 1px;
+
+    }
+    
+    
 hover-opacity{
     transition: opacity 0.5s;
 }
