@@ -36,47 +36,13 @@
 
 
 
-<div class="home">
-    <div  class="overlay">
-
-
-        <div class="home-content">
-            <div class="big-title-left">
-                <h2 class="title">من نحن</h2>
-                <span class="ligne"> </span>
-            </div>
-            <p class="home-desc">
-
-                 رؤينتنا لكم أقرب
-                    
-                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
-                    وأماكن الترفية والنعليم
-                    
-                    وشاليهات درةالعروس واسنراحاتها
-                   
-                     كونوا معنا قريبين نريكم الاحداث فور وقوعها
-
-            </p>
-               <p class="home-desc">
-
-                 أربعةوعشرون ساعة مع الخبر
-                    
-                    مع الخبر وقبله أحيانا
-                     ****اخباروافكار*****معلومات ومشاركات****
-            </p>
-            <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
-
-
-        </div>
-    </div>
-</div>
 
 
 
 
 
 
-
+ <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
 
 
