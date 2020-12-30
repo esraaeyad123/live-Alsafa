@@ -71,7 +71,7 @@
                    
                     
                 </p>
-                    <a href="https://www.snapchat.com/add/live_alsafa">     <button class="button-snap">snapىىىىىىىىىىلاchat</button> </a>
+                    <a class="button-snap" href="https://www.snapchat.com/add/live_alsafa"> snapchat   </a>
 
             </div>
             <div class="part two">
