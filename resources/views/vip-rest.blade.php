@@ -74,6 +74,37 @@
 
 
                 </p>
+                
+                <style 
+                .about  button{
+                       min-width: 160px;
+                       padding: 15px 0;
+                       margin-top: 60px;
+                       border-radius: 5%;
+                       border: none;
+                       cursor: pointer;
+                       font-size: 20px;
+                       }
+
+                       .about  btn-start{
+                       margin-left:15px ;
+                       background-color: black;
+                       }
+                       .about  .btn-snap{
+                       background-color:#f8e71c ;
+
+                       color: black;
+                       margin-left: 10px;
+                       }
+                       hover-opacity{
+                       transition: opacity 0.5s;
+                       }
+                       .about .about-content button:hover{
+                       opacity: 0.8;
+                       }
+
+
+                ></style>
                 <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
             </div>
