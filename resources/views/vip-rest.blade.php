@@ -55,6 +55,33 @@
                     نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
 
                 </p>
+                <style
+        .about  button{
+        min-width: 160px;
+        padding: 15px 0;
+        margin-top: 60px;
+        border-radius: 5%;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        }
+
+        .about  btn-start{
+        margin-left:15px ;
+        background-color: black;
+        }
+        .about  .btn-snap{
+        background-color:#f8e71c ;
+
+        color: black;
+        margin-left: 10px;
+        }
+
+
+
+
+
+></style>
                 <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
             </div>
