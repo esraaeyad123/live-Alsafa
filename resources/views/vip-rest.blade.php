@@ -5,17 +5,17 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('website') }}/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-     <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
     <title>عيــــن جــــدة
     </title>
 
@@ -41,70 +41,20 @@
 
 
 
-
 <div class="about  pd" id="about">
     <div class="about-content">
 
         <div class="container2">
             <div class="part_one">
                 <div class="big-title-left">
-                    <h1 class="title"> عيـــــن جـــدة</h1>
+                    <h1 class="title">من نحن</h1>
                 </div>
                 <p class="paragraph">
 
-                    رؤينتنا لكم أقرب
-
-                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
-                    وأماكن الترفية والنعليم
-
-                    وشاليهات درةالعروس واسنراحاتها
-
-                    كونوا معنا قريبين نريكم الاحداث فور وقوعها
-                </p>
-                <h1 class="title">  جـــدة مباشر 24 ساعة </h1>
-
-                <p class="paragraph">
-
-                    أربعةوعشرون ساعة مع الخبر
-
-                    مع الخبر وقبله أحيانا
-                    ****اخباروافكار*****معلومات ومشاركات****
-
-
-
+                    نوفر لكم أفضل المطاعم وأفضل الخصومات
+                    نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
 
                 </p>
-                
-                <style 
-                .about  button{
-                       min-width: 160px;
-                       padding: 15px 0;
-                       margin-top: 60px;
-                       border-radius: 5%;
-                       border: none;
-                       cursor: pointer;
-                       font-size: 20px;
-                       }
-
-                       .about  btn-start{
-                       margin-left:15px ;
-                       background-color: black;
-                       }
-                       .about  .btn-snap{
-                       background-color:#f8e71c ;
-
-                       color: black;
-                       margin-left: 10px;
-                       }
-                       hover-opacity{
-                       transition: opacity 0.5s;
-                       }
-                       .about .about-content button:hover{
-                       opacity: 0.8;
-                       }
-
-
-                ></style>
                 <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
             </div>
@@ -118,6 +68,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 
@@ -213,64 +165,64 @@
 
 
 <div class="site-section bg-light">
-        <div class="row">
-            <div class="col-md-12 mb-5">
-                <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
-                    @csrf
-                    @include('includes.errors')
-                    @if(Session::has('send_message'))
-                        <div class="alert alert-success">{{Session::get('send_message')}}</div>
-                    @endif
-                    <div class="col-md-12 col-lg-10">
-                        <div class="post-entry text-center">
-                            <h2 class="title">اقتراحات</h2>
-                             <p class="about-item-de">متابعينا الكرام نستقبل اقتراحاتكم لاماكن المفضلة التي تحبونها
-                </p>
-                            <span class="ligne"> </span>
-                        </div>
+    <div class="row">
+        <div class="col-md-12 mb-5">
+            <form action="{{ route('website.contact') }}" method="post" class="p-5 bg-white">
+                @csrf
+                @include('includes.errors')
+                @if(Session::has('send_message'))
+                <div class="alert alert-success">{{Session::get('send_message')}}</div>
+                @endif
+                <div class="col-md-12 col-lg-10">
+                    <div class="post-entry text-center">
+                        <h2 class="title">اقتراحات</h2>
+                        <p class="about-item-de">متابعينا الكرام نستقبل اقتراحاتكم لاماكن المفضلة التي تحبونها
+                        </p>
+                        <span class="ligne"> </span>
                     </div>
+                </div>
 
 
 
-                    <div class="form-group">
+                <div class="form-group">
 
 
-                        <h4></h4>
-                        <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
-                            <option selected>Select category</option>
-                            @foreach ($categories as $item)
-                                <option value="{{ $item->id }}">{{ $item->name }}</option>
-                            @endforeach
-                        </select>
+                    <h4></h4>
+                    <select class="browser-default custom-select" name="category_id" id="category" class="form-control">
+                        <option selected>Select category</option>
+                        @foreach ($categories as $item)
+                        <option value="{{ $item->id }}">{{ $item->name }}</option>
+                        @endforeach
+                    </select>
 
-                        <h4></h4>
-                        <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
+                    <h4></h4>
+                    <select class="browser-default custom-select" name="subcategories_id" id="subcategory" class="form-control">
 
-                        </select>
+                    </select>
+                </div>
+
+
+
+
+
+
+
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
                     </div>
+                </div>
 
-
-
-
-
-
-
-                    <div class="row form-group">
-                        <div class="col-md-12">
-                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="اكتب هنا رسالتك"></textarea>
-                        </div>
+                <div class="row form-group">
+                    <div class="col-md-12">
+                        <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
                     </div>
-
-                    <div class="row form-group">
-                        <div class="col-md-12">
-                            <input type="submit" value="ارسال" class="btn btn-primary py-2 px-4 text-white">
-                        </div>
-                    </div>
+                </div>
 
 
-                </form>
-            </div>
+            </form>
         </div>
+    </div>
 </div>
 
 
@@ -316,12 +268,12 @@
 
             <p class="footer-company-about">
                 <span>من نحن</span>
-  حساب معك في كل وقت وحين
+                حساب معك في كل وقت وحين
 
                 نقوم بتغطية
                 المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
 
-              
+
             </p>
 
             <div class="footer-icons">
@@ -365,12 +317,12 @@
     });
 </script>
 
-  <script>
-      let counter =document.querySelector('h6');
-      let count =1 ;
-      setInterval(()=>{
-          counter.innerText=count;
-      },1000)
-  </script>
+<script>
+    let counter =document.querySelector('h6');
+    let count =1 ;
+    setInterval(()=>{
+        counter.innerText=count;
+    },1000)
+</script>
 </body>
 </html>
