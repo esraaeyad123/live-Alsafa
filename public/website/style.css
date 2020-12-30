@@ -386,6 +386,12 @@ body.fixed .header-fixed .header-limiter nav {
         font-family: inherit;
 
     }
+    .home  .btn-snap{
+    background-color:#f8e71c ;
+
+    color: black;
+    margin-left: 10px;
+}
 
 }
 .home  button{
