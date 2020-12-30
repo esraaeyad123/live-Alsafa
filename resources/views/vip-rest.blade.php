@@ -49,7 +49,7 @@
 
                 <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
                 <div class="big-title-left">
-                    <h1 class="title"> اضافة السريعة للسناب شات</h1>
+                    <h1 class="title"> اضافة سريعة للسناب شات</h1>
                 </div>
  
                 <div class="big-title-left">
