@@ -87,15 +87,15 @@
         background-color: black;
         }
         .about  .btn-snap{
-        background-color:red ;
+          background-color:#f8e71c ;
 
-
-        color: black;
-        margin-left: 10px;
+    color: black;
+    margin-left: 10px;
         }
 
 ></style>
-                               <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+                         <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+
 
             </div>
             <div class="part two">
