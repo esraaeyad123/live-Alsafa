@@ -36,6 +36,30 @@
 
 
 
+<div class="home">
+    <div  class="overlay">
+
+
+        <div class="home-content">
+            <div class="big-title-left">
+                <h2 class="title">من نحن</h2>
+                <span class="ligne"> </span>
+            </div>
+            <p class="home-desc">
+
+                حساب متخصص في تغطية كل ما يهم سكان ومرتادي حي الصفا
+
+                نقوم بتغطية
+                المطاعم , الكافيهات ,الخصومات , المناسبات , الخدمات , و أي جديد
+
+
+            </p>
+            <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+
+
+        </div>
+    </div>
+</div>
 
 
 
