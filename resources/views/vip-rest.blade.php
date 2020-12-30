@@ -10,12 +10,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
     <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('website') }}/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
     <title>عيــــن جــــدة
     </title>
 
@@ -55,33 +54,7 @@
                     نعمل جاهدين وبذكاء على ايصالكم لأفضل المطاعم والخدمات المناسبة على رغباتكم والحصول على خصومات قوية
 
                 </p>
-                <style
-        .about  button{
-        min-width: 160px;
-        padding: 15px 0;
-        margin-top: 60px;
-        border-radius: 5%;
-        border: none;
-        cursor: pointer;
-        font-size: 20px;
-        }
 
-        .about  btn-start{
-        margin-left:15px ;
-        background-color: black;
-        }
-        .about  .btn-snap{
-        background-color:#f8e71c ;
-
-        color: black;
-        margin-left: 10px;
-        }
-
-
-
-
-
-></style>
                 <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
 
             </div>
