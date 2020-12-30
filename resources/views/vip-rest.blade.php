@@ -39,75 +39,7 @@
 
 
 
-<div class="about  pd" id="about">
-    <div class="about-content">
 
-        <div class="container2">
-            <div class="part_one">
-                <div class="big-title-left">
-                    <h1 class="title"> عيـــــن جـــدة</h1>
-                </div>
-                <p class="paragraph">
-                
-                    رؤينتنا لكم أقرب
-                    
-                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
-                    وأماكن الترفية والنعليم
-                    
-                    وشاليهات درةالعروس واسنراحاتها
-                   
-                     كونوا معنا قريبين نريكم الاحداث فور وقوعها
-                </p>
-                                    <h1 class="title">  جـــدة مباشر 24 ساعة </h1> 
-
-                 <p class="paragraph">
-                
-                    أربعةوعشرون ساعة مع الخبر
-                    
-                    مع الخبر وقبله أحيانا
-                     ****اخباروافكار*****معلومات ومشاركات****
-                    
-                    
-                   
-                    
-                </p>
-<style
-        .about  button{
-        min-width: 160px;
-        padding: 15px 0;
-        margin-top: 60px;
-        border-radius: 5%;
-        border: none;
-        cursor: pointer;
-        font-size: 20px;
-        }
-
-        .about  btn-start{
-        margin-left:15px ;
-        background-color: black;
-        }
-        .about  .btn-snap{
-          background-color:#f8e71c ;
-
-    color: black;
-    margin-left: 10px;
-        }
-
-></style>
-                         <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
-
-
-            </div>
-            <div class="part two">
-                <div class="image">
-                    <!--<img src="/offer/offer.jpg">-->
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
