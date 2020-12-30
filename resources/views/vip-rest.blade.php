@@ -42,7 +42,51 @@
 
 
 
- <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+<div class="about  pd" id="about">
+    <div class="about-content">
+
+        <div class="container2">
+            <div class="part_one">
+                <div class="big-title-left">
+                    <h1 class="title"> عيـــــن جـــدة</h1>
+                </div>
+                <p class="paragraph">
+
+                    رؤينتنا لكم أقرب
+
+                    عينكم  علــى الصالونات النجميلية والمراكز التجارية
+                    وأماكن الترفية والنعليم
+
+                    وشاليهات درةالعروس واسنراحاتها
+
+                    كونوا معنا قريبين نريكم الاحداث فور وقوعها
+                </p>
+                <h1 class="title">  جـــدة مباشر 24 ساعة </h1>
+
+                <p class="paragraph">
+
+                    أربعةوعشرون ساعة مع الخبر
+
+                    مع الخبر وقبله أحيانا
+                    ****اخباروافكار*****معلومات ومشاركات****
+
+
+
+
+                </p>
+                <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+
+            </div>
+            <div class="part two">
+                <div class="image">
+                    <!--<img src="/offer/offer.jpg">-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
