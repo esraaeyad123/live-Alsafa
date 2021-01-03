@@ -15,7 +15,7 @@
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-         <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">
+        <!-- <meta http-equiv="refresh" content="0.5; url=https://www.snapchat.com/add/live_alsafa">-->
 
     <title>عيــــن جــــدة
     </title>
@@ -49,7 +49,7 @@
             <div class="part_one">
             
 
-                <a href="https://www.snapchat.com/add/live_alsafa">     <button class="btn-snap">snapchat</button> </a>
+                <a href="https://www.snapchat.com/add/jedday_eyes">     <button class="btn-snap">snapchat</button> </a>
                 <div class="big-title-left">
                     <h1 class="title"> اضافة سريعة للسناب شات</h1>
                 </div>
