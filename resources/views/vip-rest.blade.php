@@ -282,8 +282,9 @@
             </div>
 
             <div>
-                <i class="fa fa-phone"></i>
-                <p>+966500696719</p>
+               
+                
+                 <a href="http://link2dial.com/"><i  class="fa fa-phone">للتواصل معنا</i></a>
             </div>
 
 
