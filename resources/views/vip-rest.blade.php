@@ -284,7 +284,7 @@
             <div>
                
                 
-                 <a href="http://call.link2dial.com/?phone=0096654054470"><i  class="fa fa-phone"><p><span></span> للتواصل </p></i></a>
+                 <a href="http://call.link2dial.com/?phone=0096654054470"><i  class="fa fa-phone"><p> للتواصل </p></i></a>
             </div>
 
 
